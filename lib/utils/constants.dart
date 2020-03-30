@@ -44,11 +44,11 @@ const String email_id = 'Email id';
 const String password  = 'password';
 
 //Main Screen
-const String dashboard = "Dashboard";
-const String notifications = "Notifications";
-const String profile = "Profile";
-const String info = "Info";
-const String birthInformation = "Birth Informmation";
+const String dashboard = 'Dashboard';
+const String notifications = 'Notifications';
+const String profile = 'Profile';
+const String info = 'Info';
+const String birthInformation = 'Birth Informmation';
 
 //Address Information Screen
 const String address_line_1 = "ADDRESS LINE 1";
@@ -62,6 +62,12 @@ const String province = "PROVINCE";
 const String country = "COUNTRY";
 const String pincode = "PINCODE";
 const phone = "PHONE";
+
+//Dashboard
+const String hospital_near_you = 'Hospitals Near You';
+const String more = 'More';
+const String upcoming_vaccination = 'Upcoming Vaccination';
+const String other_features = 'Other Features';
 
 
 //const Color oranges = Color(0xfffbb448);
