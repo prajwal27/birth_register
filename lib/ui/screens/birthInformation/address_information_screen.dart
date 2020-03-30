@@ -29,7 +29,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            "ADDRESS LINE 1:",
+                            address_line_1,
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                         ),
@@ -49,7 +49,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                               readOnly: true,
                               textAlign: TextAlign.start,
                               decoration: new InputDecoration(
-                                hintText: 'LINE 1',
+                                hintText: line_1,
                                 border: InputBorder.none,
 
                               ),
@@ -61,7 +61,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            "ADDRESS LINE 2:",
+                            address_line_2,
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                         ),
@@ -81,7 +81,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                               readOnly: true,
                               textAlign: TextAlign.start,
                               decoration: new InputDecoration(
-                                hintText: 'LINE 2',
+                                hintText: line_2,
                                 border: InputBorder.none,
 
                               ),
@@ -93,7 +93,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            "ADDRESS LINE 3:",
+                            address_line_3,
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                         ),
@@ -113,7 +113,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                               readOnly: true,
                               textAlign: TextAlign.start,
                               decoration: new InputDecoration(
-                                hintText: 'LINE 3',
+                                hintText: line_3,
                                 border: InputBorder.none,
 
                               ),
@@ -136,7 +136,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            "DISTRICT:",
+                            district,
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                         ),
@@ -156,7 +156,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                               readOnly: true,
                               textAlign: TextAlign.start,
                               decoration: new InputDecoration(
-                                hintText: 'DISTRICT',
+                                hintText: district,
                                 border: InputBorder.none,
 
                               ),
@@ -168,7 +168,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            "PROVINCE",
+                            province,
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                         ),
@@ -188,7 +188,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                               readOnly: true,
                               textAlign: TextAlign.start,
                               decoration: new InputDecoration(
-                                hintText: 'PROVINCE',
+                                hintText: province,
                                 border: InputBorder.none,
 
                               ),
@@ -200,7 +200,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            "COUNTRY:",
+                            country,
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                         ),
@@ -220,7 +220,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                               readOnly: true,
                               textAlign: TextAlign.start,
                               decoration: new InputDecoration(
-                                hintText: 'COUNTRY',
+                                hintText: country,
                                 border: InputBorder.none,
 
                               ),
@@ -232,7 +232,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            "PINCODE:",
+                            pincode,
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                         ),
@@ -252,7 +252,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                               readOnly: true,
                               textAlign: TextAlign.start,
                               decoration: new InputDecoration(
-                                hintText: '560098',
+                                hintText: pincode,
                                 border: InputBorder.none,
 
                               ),
@@ -275,7 +275,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            "PHONE:",
+                            phone,
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                         ),
@@ -295,7 +295,7 @@ class _AddressInformationScreenState extends State<AddressInformationScreen> {
                               readOnly: true,
                               textAlign: TextAlign.start,
                               decoration: new InputDecoration(
-                                hintText: '9632****17',
+                                hintText: phone,
                                 border: InputBorder.none,
 
                               ),

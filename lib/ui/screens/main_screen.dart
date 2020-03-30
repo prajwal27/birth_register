@@ -4,9 +4,13 @@ import 'package:birth_register/ui/screens/Notifications/notifications.dart';
 import 'package:birth_register/ui/screens/Profile/profile.dart';
 import 'package:birth_register/utils/constants.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
+  final FirebaseUser firebaseUser;
+
+  Home({this.firebaseUser});
   @override
   _HomeState createState() => _HomeState();
 }
@@ -19,6 +23,7 @@ class _HomeState extends State<Home> {
   @override
   void initState() {
     super.initState();
+    print(widget.firebaseUser);
     _pageController = PageController();
   }
 
@@ -49,14 +54,14 @@ class _HomeState extends State<Home> {
               activeColor: korange,
               inactiveColor: kgreyDark,
               title: Text(
-                "Info",
+                info,
                 style: TextStyle(fontFamily: "nunito"),
               ),
             ),
             BottomNavyBarItem(
               icon: Icon(Icons.line_style),
               title: Text(
-                "Dashboard",
+                dashboard,
                 style: TextStyle(fontFamily: "nunito"),
               ),
               inactiveColor: kgreyDark,
@@ -65,7 +70,7 @@ class _HomeState extends State<Home> {
             BottomNavyBarItem(
               icon: Icon(Icons.notifications),
               title: Text(
-                "Notifications",
+                notifications,
                 style: TextStyle(fontFamily: "nunito"),
               ),
               inactiveColor: kgreyDark,
@@ -74,7 +79,7 @@ class _HomeState extends State<Home> {
             BottomNavyBarItem(
               icon: Icon(Icons.person),
               title: Text(
-                "Profile",
+                profile,
                 style: TextStyle(fontFamily: "nunito"),
               ),
               inactiveColor: kgreyDark,

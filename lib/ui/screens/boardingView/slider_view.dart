@@ -24,6 +24,7 @@ class _SliderLayoutViewState extends State<SliderLayoutView> {
   @override
   void initState() {
     super.initState();
+    //TODO: automatic movement of onboard screen.
    /* Timer.periodic(Duration(seconds: 5), (Timer timer) {
       if (_currentPage < 2) {
         setState(() {
@@ -52,11 +53,8 @@ class _SliderLayoutViewState extends State<SliderLayoutView> {
   }
 
   void onPressed(){
-    widget.prefs.setBool('seen', true);
+    widget.prefs.setBool(seen, true);
     Navigator.of(context).pushReplacementNamed("/root");
-    /*Navigator.pushN(context, MaterialPageRoute(builder: (_) {
-        return SignInPage();
-    }));*/
   }
 
   @override

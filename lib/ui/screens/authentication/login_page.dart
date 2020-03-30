@@ -1,6 +1,5 @@
 import 'package:birth_register/business/auth.dart';
 import 'package:birth_register/business/validator.dart';
-import 'package:birth_register/ui/screens/Authentication/signup_page.dart';
 import 'package:birth_register/ui/widgets/bezier_container.dart';
 import 'package:birth_register/ui/widgets/custom_alert_dialog.dart';
 import 'package:birth_register/ui/widgets/custom_text_field.dart';
@@ -28,25 +27,6 @@ class _LoginPageState extends State<LoginPage> {
   @override
   void initState() {
     super.initState();
-
-    /*_emailField = CustomTextField(
-      baseColor: Colors.grey,
-      borderColor: Colors.grey[400],
-      errorColor: Colors.red,
-      controller: _email,
-      hint: "E-mail Adress",
-      inputType: TextInputType.emailAddress,
-      validator: Validator.validateEmail,
-    );
-    _passwordField = CustomTextField(
-      baseColor: Colors.grey,
-      borderColor: Colors.grey[400],
-      errorColor: Colors.red,
-      controller: _password,
-      obscureText: true,
-      hint: "Password",
-      validator: Validator.validatePassword,
-    );*/
   }
 
   Widget _backButton() {
@@ -62,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
               padding: EdgeInsets.only(left: 0, top: 10, bottom: 10),
               child: Icon(Icons.keyboard_arrow_left, color: Colors.black),
             ),
-            Text('Back',
+            Text(back,
                 style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500))
           ],
         ),
@@ -116,7 +96,7 @@ class _LoginPageState extends State<LoginPage> {
                 end: Alignment.centerRight,
                 colors: [Color(0xfffbb448), Color(0xfff7892b)])),
         child: Text(
-          'Login',
+          login,
           style: TextStyle(fontSize: 20, color: Colors.white),
         ),
       ),
@@ -171,7 +151,7 @@ class _LoginPageState extends State<LoginPage> {
               topRight: Radius.circular(5)),
         ),
         alignment: Alignment.center,
-        child: Text('Log in with Phone',
+        child: Text(login_phone,
             style: TextStyle(
                 color: Colors.white,
                 fontSize: 18,
@@ -188,7 +168,7 @@ class _LoginPageState extends State<LoginPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text(
-            'Don\'t have an account ?',
+            dont_have_account,
             style: TextStyle(fontSize: 13, fontWeight: FontWeight.w600),
           ),
           SizedBox(
@@ -196,13 +176,10 @@ class _LoginPageState extends State<LoginPage> {
           ),
           InkWell(
             onTap: () {
-
               Navigator.of(context).pushReplacementNamed("/signup");
-              /*Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => SignUpPage()));*/
             },
             child: Text(
-              'Register',
+              register,
               style: TextStyle(
                   color: Color(0xfff79c4f),
                   fontSize: 13,
@@ -225,16 +202,7 @@ class _LoginPageState extends State<LoginPage> {
             fontWeight: FontWeight.w700,
             color: Color(0xffe46b10),
           ),
-          /*children: [
-            TextSpan(
-              text: 'ev',
-              style: TextStyle(color: Colors.black, fontSize: 30),
-            ),
-            TextSpan(
-              text: 'rnz',
-              style: TextStyle(color: Color(0xffe46b10), fontSize: 30),
-            ),
-          ]*/),
+          ),
     );
   }
 
@@ -277,7 +245,7 @@ class _LoginPageState extends State<LoginPage> {
                         Container(
                           padding: EdgeInsets.symmetric(vertical: 10),
                           alignment: Alignment.centerRight,
-                          child: Text('Forgot Password ?',
+                          child: Text(forgot_password,
                               style:
                               TextStyle(fontSize: 14, fontWeight: FontWeight.w500)),
                         ),
@@ -312,7 +280,6 @@ class _LoginPageState extends State<LoginPage> {
         Validator.validatePassword(password)) {
       try {
         SystemChannels.textInput.invokeMethod('TextInput.hide');
-        //_changeBlackVisible();
         await Auth.signIn(email, password)
             .then((uid) {
               Navigator.popUntil(
@@ -324,7 +291,7 @@ class _LoginPageState extends State<LoginPage> {
         print("Error in email login: $e");
         String exception = Auth.getExceptionText(e);
         _showErrorAlert(
-          title: "Login failed",
+          title: login_fail,
           content: exception,
           onPressed: null,
         );

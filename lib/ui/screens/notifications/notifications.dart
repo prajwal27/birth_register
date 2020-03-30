@@ -17,7 +17,7 @@ class _NotificationsState extends State<Notifications> {
         backgroundColor: kwhite,
         appBar: AppBar(
           backgroundColor: kwhite,
-          title: BoldText("Notifications", 25, kblack),
+          title: BoldText(notifications, 25, kblack),
           centerTitle: true,
           elevation: 2,
         ),

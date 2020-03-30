@@ -15,12 +15,12 @@ class SlideItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     onPressed (){
       prefs.setBool('seen', true);
       Navigator.of(context).pushReplacementNamed("/root");
-      /*Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) {
-        return SignInPage();
-      }));    */}
+    }
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       mainAxisAlignment: MainAxisAlignment.center,

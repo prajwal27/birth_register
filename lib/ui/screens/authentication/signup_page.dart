@@ -1,4 +1,3 @@
-import 'package:birth_register/ui/screens/Authentication/login_page.dart';
 import 'package:birth_register/ui/widgets/bezier_container.dart';
 import 'package:birth_register/utils/constants.dart';
 import 'package:flutter/material.dart';
@@ -27,7 +26,7 @@ class _SignUpPageState extends State<SignUpPage> {
               padding: EdgeInsets.only(left: 0, top: 10, bottom: 10),
               child: Icon(Icons.keyboard_arrow_left, color: Colors.black),
             ),
-            Text('Back',
+            Text(back,
                 style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500))
           ],
         ),
@@ -78,7 +77,7 @@ class _SignUpPageState extends State<SignUpPage> {
               end: Alignment.centerRight,
               colors: [Color(0xfffbb448), Color(0xfff7892b)])),
       child: Text(
-        'Register Now',
+        register_now,
         style: TextStyle(fontSize: 20, color: Colors.white),
       ),
     );
@@ -92,7 +91,7 @@ class _SignUpPageState extends State<SignUpPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text(
-            'Already have an account ?',
+            already_have_account,
             style: TextStyle(fontSize: 13, fontWeight: FontWeight.w600),
           ),
           SizedBox(
@@ -105,7 +104,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   MaterialPageRoute(builder: (context) => LoginPage()));*/
             },
             child: Text(
-              'Login',
+              login,
               style: TextStyle(
                   color: Color(0xfff79c4f),
                   fontSize: 13,
@@ -128,25 +127,16 @@ class _SignUpPageState extends State<SignUpPage> {
             fontWeight: FontWeight.w700,
             color: Color(0xffe46b10),
           ),
-          /*children: [
-            TextSpan(
-              text: 'ev',
-              style: TextStyle(color: Colors.black, fontSize: 30),
-            ),
-            TextSpan(
-              text: 'rnz',
-              style: TextStyle(color: Color(0xffe46b10), fontSize: 30),
-            ),
-          ]*/),
+         ),
     );
   }
 
   Widget _emailPasswordWidget() {
     return Column(
       children: <Widget>[
-        _entryField("Username"),
-        _entryField("Email id"),
-        _entryField("Password", isPassword: true),
+        _entryField(username),
+        _entryField(email_id),
+        _entryField(password, isPassword: true),
       ],
     );
   }

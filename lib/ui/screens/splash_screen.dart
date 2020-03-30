@@ -1,6 +1,5 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:birth_register/ui/screens/BoardingView/on_boarding_screen.dart';
-import 'package:birth_register/ui/screens/root_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:birth_register/utils/constants.dart';
@@ -34,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
               ),
               SizedBox(height: 50),
               TypewriterAnimatedTextKit(
-                text: ["BirthInfo"],
+                text: [app_name],
                 textStyle: TextStyle(fontSize: 30.0,color: korange,fontFamily: "nunito"),
                 speed: Duration(milliseconds: 150),
               )
