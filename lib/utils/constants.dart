@@ -1,4 +1,3 @@
-import 'dart:html';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -15,18 +14,12 @@ final kgreyDark =  Colors.grey.shade700;
 final kgreyFill =  Colors.grey.shade100;
 
 //Boarding Screen
-const String walkThrough_title1 = "Title1";
-const String walkThrough_description1 = "Description1";
-const String walkThrough_title2 = "Title2";
-const String walkThrough_description2 = "Description2";
-const String walkThrough_title3 = "Title3";
-const String walkThrough_description3 = "Description3";
-const String SKIP = "Skip";
-const String NEXT = "Next";
-const String SLIDER_HEADING_1 = "Fast Travel!";
-const String SLIDER_HEADING_2 = "Easy to Use!";
-const String SLIDER_HEADING_3 = "Safest Option";
-const String SLIDER_DESC = "Live the best and easiest traveling experience with us,the fastest and most reliable option you can ever find.";
+const String skip = 'Skip';
+const String next = 'Next';
+const String slider_heading_1 = "Heading 1";
+const String slider_heading_2 = "Heading 2";
+const String slider_heading_3 = "Heading 3";
+const String slider_desc = "LibreHealth - BirthDetails";
 const String seen = "seen";
 
 //Login Page

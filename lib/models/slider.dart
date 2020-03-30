@@ -15,15 +15,15 @@ class Slider {
 
 final sliderArrayList = [
   Slider(
-      sliderImageUrl: 'assets/images/one.png',
-      sliderHeading: SLIDER_HEADING_1,
-      sliderSubHeading: SLIDER_DESC),
+      sliderImageUrl: 'assets/images/logo.png',
+      sliderHeading: slider_heading_1,
+      sliderSubHeading: slider_desc),
   Slider(
-      sliderImageUrl: 'assets/images/two.png',
-      sliderHeading: SLIDER_HEADING_2,
-      sliderSubHeading: SLIDER_DESC),
+      sliderImageUrl: 'assets/images/logo.png',
+      sliderHeading: slider_heading_2,
+      sliderSubHeading: slider_desc),
   Slider(
-      sliderImageUrl: 'assets/images/three.png',
-      sliderHeading: SLIDER_HEADING_3,
-      sliderSubHeading: SLIDER_DESC),
+      sliderImageUrl: 'assets/images/logo.png',
+      sliderHeading: slider_heading_3,
+      sliderSubHeading: slider_desc),
 ];
