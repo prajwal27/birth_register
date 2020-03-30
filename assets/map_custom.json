@@ -1,0 +1,11 @@
+[
+  {
+    "featureType": "administrative.country",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#000040"
+      }
+    ]
+  }
+]

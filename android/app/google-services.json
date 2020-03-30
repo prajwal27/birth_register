@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "550712144754",
+    "firebase_url": "https://libre-health-birth.firebaseio.com",
+    "project_id": "libre-health-birth",
+    "storage_bucket": "libre-health-birth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550712144754:android:229e085dd0c8a7e0f6e3eb",
+        "android_client_info": {
+          "package_name": "com.example.birth_register"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550712144754-oaalf9tr30ekh3suvvusai7gnunb1jtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1tsRn41QAjfBz9Tnth0DDwdYYwwmdxFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550712144754-oaalf9tr30ekh3suvvusai7gnunb1jtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
