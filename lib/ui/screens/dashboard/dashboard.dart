@@ -1,4 +1,4 @@
-import 'package:birth_register/ui/screens/Dashboard/hospitals.dart';
+import 'package:birth_register/ui/screens/dashboard/hospitals.dart';
 import 'package:birth_register/utils/cities_image.dart';
 import 'package:birth_register/utils/recommendation_image.dart';
 import 'package:birth_register/utils/constants.dart';

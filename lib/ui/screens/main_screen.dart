@@ -1,7 +1,7 @@
-import 'package:birth_register/ui/screens/BirthInformation/birth_information.dart';
-import 'package:birth_register/ui/screens/Dashboard/dashboard.dart';
-import 'package:birth_register/ui/screens/Notifications/notifications.dart';
-import 'package:birth_register/ui/screens/Profile/profile.dart';
+import 'package:birth_register/ui/screens/birthInformation/birth_information.dart';
+import 'package:birth_register/ui/screens/dashboard/dashboard.dart';
+import 'package:birth_register/ui/screens/notifications/notifications.dart';
+import 'package:birth_register/ui/screens/profile/profile.dart';
 import 'package:birth_register/utils/constants.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:firebase_auth/firebase_auth.dart';
