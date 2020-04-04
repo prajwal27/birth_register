@@ -1,4 +1,4 @@
-import 'package:birth_register/ui/screens/Authentication/welcome_page.dart';
+import 'package:birth_register/ui/screens/authentication/welcome_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
