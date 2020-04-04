@@ -1,6 +1,6 @@
 import 'package:birth_register/business/auth.dart';
-import 'package:birth_register/ui/screens/Authentication/login_page.dart';
-import 'package:birth_register/ui/screens/Authentication/signup_page.dart';
+import 'package:birth_register/ui/screens/authentication/login_page.dart';
+import 'package:birth_register/ui/screens/authentication/signup_page.dart';
 import 'package:birth_register/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

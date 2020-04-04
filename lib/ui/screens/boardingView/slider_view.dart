@@ -1,6 +1,6 @@
 import 'package:birth_register/models/slider.dart';
-import 'package:birth_register/ui/screens/BoardingView/slider_dots.dart';
-import 'package:birth_register/ui/screens/BoardingView/slider_items.dart';
+import 'package:birth_register/ui/screens/boardingView/slider_dots.dart';
+import 'package:birth_register/ui/screens/boardingView/slider_items.dart';
 import 'package:birth_register/utils/constants.dart';
 import 'package:birth_register/utils/text_styles.dart';
 import 'package:flutter/material.dart';

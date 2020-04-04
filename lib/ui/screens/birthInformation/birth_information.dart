@@ -1,6 +1,6 @@
-import 'package:birth_register/ui/screens/BirthInformation/address_information_screen.dart';
-import 'package:birth_register/ui/screens/BirthInformation/guardian_information_screen.dart';
-import 'package:birth_register/ui/screens/BirthInformation/personal_information_screen.dart';
+import 'package:birth_register/ui/screens/birthInformation/address_information_screen.dart';
+import 'package:birth_register/ui/screens/birthInformation/guardian_information_screen.dart';
+import 'package:birth_register/ui/screens/birthInformation/personal_information_screen.dart';
 import 'package:birth_register/ui/widgets/custom_alert_dialog.dart';
 import 'package:birth_register/utils/constants.dart';
 import 'package:birth_register/utils/text_styles.dart';

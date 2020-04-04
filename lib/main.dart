@@ -1,9 +1,9 @@
-import 'package:birth_register/ui/screens/BoardingView/on_boarding_screen.dart';
-import 'package:birth_register/ui/screens/Dashboard/hospitals.dart';
-import 'package:birth_register/ui/screens/Authentication/login_page.dart';
+import 'package:birth_register/ui/screens/boardingView/on_boarding_screen.dart';
+import 'package:birth_register/ui/screens/dashboard/hospitals.dart';
+import 'package:birth_register/ui/screens/authentication/login_page.dart';
 import 'package:birth_register/ui/screens/main_screen.dart';
 import 'package:birth_register/ui/screens/root_screen.dart';
-import 'package:birth_register/ui/screens/Authentication/signup_page.dart';
+import 'package:birth_register/ui/screens/authentication/signup_page.dart';
 import 'package:birth_register/ui/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';

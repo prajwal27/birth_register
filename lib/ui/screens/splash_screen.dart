@@ -1,5 +1,5 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:birth_register/ui/screens/BoardingView/on_boarding_screen.dart';
+import 'package:birth_register/ui/screens/boardingView/on_boarding_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:birth_register/utils/constants.dart';

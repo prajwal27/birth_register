@@ -1,4 +1,4 @@
-import 'package:birth_register/models/Slider.dart';
+import 'package:birth_register/models/slider.dart';
 import 'package:birth_register/ui/widgets/buttons.dart';
 import 'package:birth_register/utils/constants.dart';
 import 'package:birth_register/utils/text_styles.dart';
